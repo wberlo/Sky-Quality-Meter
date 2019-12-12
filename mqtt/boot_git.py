@@ -18,7 +18,7 @@ mqtt_server = 'your broker ip address'
 client_id = ubinascii.hexlify(machine.unique_id())
 topic_sub = b'notification'
 topic_pub = b'SQM'
-topic_pub_time = b'Date'
+topic_pub_time = b'DateTime'
 
 last_message = 0
 message_interval = 5
